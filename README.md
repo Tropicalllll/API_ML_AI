@@ -1,11 +1,11 @@
 # API_ML_AI
 
-Target release | 2019/11/26|  
-Epic |  WE|
-Document status | 陈佳琳|  
-Designer | 陈佳琳|  
-Developer | 陈佳琳|  
-QA | 陈佳琳|
+|  Target release | 2019/11/26  |  
+|  Epic |  WE  |
+|  Document status | 陈佳琳  |  
+|  Designer | 陈佳琳  |  
+|  Developer | 陈佳琳  |  
+|  QA | 陈佳琳|
 
 ## 目录
 * [1-加值宣言](#1-加值宣言)
