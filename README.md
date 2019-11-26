@@ -1,6 +1,6 @@
 # API_ML_AI
 
-|  Target release | 2019/11/26  |  
+|Target release | 2019/11/26  |  
 | ---------- | -----------|  
 |  Epic |  WE  |
 |  Document status | 陈佳琳  |  
