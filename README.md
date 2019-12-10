@@ -87,51 +87,30 @@ A：我们不仅能对图片进行风格化处理（卡通/素描风格），还
 1. 手势唤醒相机拍照（百度-图像技术-人体分析-[手势识别](https://ai.baidu.com/docs#/Body-API/6fe80662)）
 - 输入
 ```
-import urllib.request
-import urllib.parse
+# encoding:utf-8
+
+import requests
 import base64
-import json
-root_url = 'https://aip.baidubce.com/rest/2.0/image-classify/v1/gesture'
-img_url = 'heartsignal.jpg'
 
-#获取access_token
-def get_access():
-    host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=cqWQ1mlsHkPhI0rqxCaBhVB8&client_secret=BdgwHAaSQMQ2njK530bT7g7x3sGwfuGp'
-    request = urllib.request.Request(host)
-    request.add_header('Content-Type', 'application/json; charset=UTF-8')
-    response = urllib.request.urlopen(request)
-    content = response.read()
-    content = json.loads(content)
-    print('获取access_token：'+content['access_token'])
-    return content['access_token']
+'''
+手势识别
+'''
 
+request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v1/gesture"
+# 二进制方式打开图片文件
+f = open('[本地文件]', 'rb')
+img = base64.b64encode(f.read())
 
-#图片加载
-def get_img(img_url):
-    with open(img_url, 'rb') as f:
-        if f:  
-            return base64.b64encode(f.read())   
-        
-#获取request    
-def get_request(url, access):
-    params = {"image": get_img(img_url),"image_type": "BASE64"}
-    params = urllib.parse.urlencode(params).encode('utf-8')
-    request_url = url + "?access_token=" + access
-    request = urllib.request.Request(url=request_url, data=params)
-    request.add_header('Content-Type', 'application/x-www-form-urlencoded')
-    return request
-
-if __name__ == '__main__':
-    response = urllib.request.urlopen(get_request(root_url, get_access()))
-    content = response.read().decode('utf-8')
-    result = json.loads(content)
-    
-result
+params = {"image":img}
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/x-www-form-urlencoded'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
 ```
 - 输出
 ```
-获取access_token：24.1674ee83593888ed3c24b0f9309155b6.2592000.1578586072.282335-17993087
-Out[11]:
 {'log_id': 3380443945645651755,
  'result_num': 2,
  'result': [{'probability': 0.5913590788841248,
