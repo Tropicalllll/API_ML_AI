@@ -29,17 +29,17 @@ A：我们不仅能对图片进行风格化处理（卡通/素描风格），还
 
 # 第二部分 市场分析
 ## 1. 市场透视
-1.1 2018.07-2019.07年摄影美化行业渗透率和用户规模
+#### 1.1 2018.07-2019.07年摄影美化行业渗透率和用户规模
 ![](https://upload-images.jianshu.io/upload_images/9515896-aa72e03764533add.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 2018年用户规模阶段性下降后，2019年持续上涨且涨幅翻倍。渗透率在2019年3-5月巨幅上涨后，7月稍有回落。
 
-1.2 2019Q3中国摄影美化平台用户分布
+#### 1.2 2019Q3中国摄影美化平台用户分布
 
 |  性别分布  |  年龄分布  |  区域分布  |
 | :----------: | :-----------|  :-----------:|
 |  ![](https://upload-images.jianshu.io/upload_images/9515896-6f979be1ee97b9c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)女70% / 男30%  |  ![](https://upload-images.jianshu.io/upload_images/9515896-7de1d2df5e1ffa41.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)max：18-25岁  |![](https://upload-images.jianshu.io/upload_images/9515896-c40f0c45c6b21277.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)max：二线城市  |
 
-1.3 2019Q3中国相机APP核心功能使用排行
+#### 1.3 2019Q3中国相机APP核心功能使用排行
 ![](https://upload-images.jianshu.io/upload_images/9515896-e3a5e206bbfc4ade.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 拍照按钮、切换镜头及进入相册为排行前三，与其后功能拉开一定距离。
 ## 2. 市场潜力
@@ -408,7 +408,7 @@ if response:
 - [20+ Emotion Recognition APIs That Will Leave You Impressed, and Concerned](https://nordicapis.com/20-emotion-recognition-apis-that-will-leave-you-impressed-and-concerned/) 
 - 以上两个榜单中Face++均处于中等位置（5/12、10/23），作为国内唯一上榜平台。
 
-### 14. API使用风险评估
+
 
 ### 15. 渠道
 - 合作渠道：在 “让你独特”（自定义合照背景）板块，可通过招募画手及原创者投稿形式征集背景图片设计，提高平台原创性及风格化的同时为平台带来合作收益。
@@ -429,5 +429,6 @@ if response:
 - [《2018年中国拍照类APP行业研究报告》](https://www.jianshu.com/p/935b38dea3e1)
 - [《基于视觉手势识别的人机交互系统》宋一凡 张鹏 刘立波
 ](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2019&filename=JSJA2019S2116&uid=WEEvREcwSlJHSldRa1FhdXNzY2Z1OVRsbTdYS2tRQ0JsTERvWEk5eVNsWT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MzIyMTBabkZpcmdWYnZBTHo3QmI3RzRIOWl2clk1RVlvUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSN3FmWnU=)
+
 **名词解释**
 - 渗透率：渗透率是指在一定压差下，岩石允许流体通过的能力。而市场渗透率则指企业的实际销售量在市场潜量中的百分率。
