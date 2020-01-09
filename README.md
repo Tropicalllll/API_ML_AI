@@ -1,4 +1,5 @@
 ## 「 321 」：智能合影相机APP-PRD
+#### [20×20PPT](https://github.com/Tropicalllll/API_ML_AI_final321/blob/master/321_2020.pptx)
 
 |  发布日期 | 2019/11/26  |  
 | :----------: | :-----------:|  
@@ -381,10 +382,9 @@ if response:
 | :----------: | :-----------|  :-----------|
 |  手势数量 |  24种  |  19种  |
 |  支持拍摄场景  |  **自拍、他拍**：主要适用于3米以内的自拍、他人拍摄，1米内识别效果最佳。拍摄距离太远时，手部目标太小，无法准确定位和识别。  |  **自拍**：主要适用于移动设备的自拍场景设计，在其他场景下对手势的识别精度可能不足。  |
-|  自有特点  |  除识别手势外，若图像中检测到人脸，会同时返回人脸框位置。  |  对于单手的手势，不区分左右手，即无论左右手摆出此手势都会被识别。  |
-|  代码运行结果  |  直接检测出图片人数以及每个人对应手势的名称。![](https://upload-images.jianshu.io/upload_images/9515896-eee4289370f88aaa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  |  返回结果为一个包括19种手势的列表，19种手势合计100分，评分最高的即为识别出的手势。![](https://upload-images.jianshu.io/upload_images/9515896-f37795a961dd53bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-  |
-|  运行正确性  |  ![](https://upload-images.jianshu.io/upload_images/9515896-b3fa962584b9a482.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)同一张照片，百度能正确识别出两个手势。  |  ![](https://upload-images.jianshu.io/upload_images/9515896-9cd0f7754d0432de.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)同一张照片，Face++只识别出了男生的手势，女生的手势只识别到一半导致结果错误。  |
+|  自有特点  |  除识别手势外，若图像中检测到人脸，会同时返回人脸框位置。  |  对于单手的手势，不区分左右手，即无论左右手摆出此手势都会被识别。  |  
+|  代码运行结果  |  直接检测出图片人数以及每个人对应手势的名称。![](https://upload-images.jianshu.io/upload_images/9515896-eee4289370f88aaa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  |  返回结果为一个包括19种手势的列表，19种手势合计100分，评分最高的即为识别出的手势。![](https://upload-images.jianshu.io/upload_images/9515896-f37795a961dd53bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  |  
+|  运行正确性  |  ![](https://upload-images.jianshu.io/upload_images/9515896-b3fa962584b9a482.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)同一张照片，百度能正确识别出两个手势。  |  ![](https://upload-images.jianshu.io/upload_images/9515896-9cd0f7754d0432de.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)同一张照片，Face++只识别出了男生的手势，女生的手势只识别到一半导致结果错误。  |  
 |  使用评价  |  结果直接显示人数及手势，直观便捷，一目了然。  |  需要在返回的结果列表中自行对比评分、寻找最高分的手势，不太直观，偶尔还会找错导致得出错误的手势结论。  |  
 |  产品价格  |  ![](https://upload-images.jianshu.io/upload_images/9515896-4e46c7a681236141.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) |  ![](https://upload-images.jianshu.io/upload_images/9515896-3a1c43119b37cd31.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  |  
 
