@@ -143,6 +143,7 @@ A：自定义抠出替换照片背景，让您想怎么特别都可以！还有�
 
 
 ## 12. API运用
+- [API调用代码文件](https://github.com/Tropicalllll/API_ML_AI_final321/blob/master/%E8%B0%83%E7%94%A8API%E6%96%87%E6%A1%A3.ipynb)
 ### 12.1 功能一：手势唤醒相机拍照 / API运用：百度 - 手势识别
 
 |  接口地址 |  https://ai.baidu.com/tech/body/gesture  | 
