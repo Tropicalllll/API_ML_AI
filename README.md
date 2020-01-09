@@ -13,33 +13,33 @@
 手势到位，想拍就拍。  
 智能选片，只需十秒。  
 特色修图，风格出众。  
-「 321 」拍照从此得心应手。
+「 321 」让拍照从此得心应手。
 
 #### 一段话版本
-没人帮忙拍合照怎么办？合照太多挑不过来怎么办？到底哪一张合照大家都ok啊？能不能让照片更独特一点？「 321 」app解决的即是上述几个问题。
-- Q：没人帮忙拍合照怎么办？  
-A：我们有手势识别自动拍照！
-- Q：合照太多挑不过来怎么办？到底哪一张合照大家都ok啊？  
-A：我们可以对合照中所有人脸的颜值进行分析统计，为你识别推荐出一张最佳合照！  
-- Q：能不能让照片更与众不同一点？  
-A：我们不仅能对图片进行风格化处理（卡通/素描风格），还能运用抠图让您自定义合照的背景。当然基础的图像对比度、清晰度等的处理我们也通通具备！
+没人帮忙拍合照怎么办？太多合照挑不出好坏怎么办？合照都一样我想更特别一点怎么办？运用了人工智能技术的「 321 」合影相机app统统能帮你解决！
+- Q：没人帮忙拍合照？  
+A：我们有手势拍照模式，让您远距离也能随时控制相机！
+- Q：太多合照挑不出好坏？
+A：我们能分析合照中所有人脸的颜值，只为您推荐一张完美合照！  
+- Q：想合照更特别一点？  
+A：自定义抠出替换照片背景，让您想怎么特别都可以！还有卡通 / 素描风格的照片处理为您增光添彩！
 
 ### 2. 核心价值（最小可行性产品）
 - 针对日常合照中较常见难题：提供手势识别拍照服务，人脸识别为用户筛选最佳合照，达成自定义修改合照背景的功能。
 
 # 第二部分 市场分析
 ## 1. 市场透视
-#### 1.1 2018.07-2019.07年摄影美化行业渗透率和用户规模
+1.1 2018.07-2019.07年摄影美化行业渗透率和用户规模
 ![](https://upload-images.jianshu.io/upload_images/9515896-aa72e03764533add.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 2018年用户规模阶段性下降后，2019年持续上涨且涨幅翻倍。渗透率在2019年3-5月巨幅上涨后，7月稍有回落。
 
-#### 1.2 2019Q3中国摄影美化平台用户分布
+1.2 2019Q3中国摄影美化平台用户分布
 
 |  性别分布  |  年龄分布  |  区域分布  |
 | :----------: | :-----------|  :-----------:|
 |  ![](https://upload-images.jianshu.io/upload_images/9515896-6f979be1ee97b9c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)女70% / 男30%  |  ![](https://upload-images.jianshu.io/upload_images/9515896-7de1d2df5e1ffa41.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)max：18-25岁  |![](https://upload-images.jianshu.io/upload_images/9515896-c40f0c45c6b21277.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)max：二线城市  |
 
-#### 1.3 2019Q3中国相机APP核心功能使用排行
+1.3 2019Q3中国相机APP核心功能使用排行
 ![](https://upload-images.jianshu.io/upload_images/9515896-e3a5e206bbfc4ade.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 拍照按钮、切换镜头及进入相册为排行前三，与其后功能拉开一定距离。
 ## 2. 市场潜力
@@ -80,10 +80,10 @@ A：我们不仅能对图片进行风格化处理（卡通/素描风格），还
 
 |  用户需求 | 可行API  |  重要程度 |
 | :----------: | :-----------:|  :-----------:|
-|  用户希望可以远程触发相机拍合照 |  百度 - 手势识别API  | 重要 |
-|  用户希望可以快速又靠谱的选择出一张最佳合照 |  Face++ - 颜值评分API  | 重要 |
-|  用户希望合照更具特色和个性 | 百度 - 人像分割API  | 次重要 |  
-|  用户想简单的美化一下合照 | 百度 - 图像效果增强API  | 次重要 |  
+|  用户希望可以远程触发相机拍合照 |  [百度 - 手势识别API](https://ai.baidu.com/tech/body/gesture)  | 重要 |
+|  用户希望可以快速又靠谱的选择出一张最佳合照 |  [Face++ - 颜值评分API](https://www.faceplusplus.com.cn/beauty/)  | 重要 |
+|  用户希望合照更具特色和个性 | [百度 - 人像分割API](https://ai.baidu.com/tech/body/seg/)  | 次重要 |  
+|  用户想简单的美化一下合照 | [百度 - 图像效果增强API](https://ai.baidu.com/ai-doc/IMAGEPROCESS/nk3bcloer)  | 次重要 |  
 
 ## 6. 具体使用场景
 
@@ -227,7 +227,6 @@ result
 |  接口描述 |  调用者提供图片文件或者图片URL，检测图片中出现的所有的手部，并返回其在图片中的矩形框位置与相应的手势含义。目前可以识别 19 种手势。  |   
 |  请求方法 |  POST  |
 |  请求URL |  https://api-cn.faceplusplus.com/humanbodypp/v1/gesture  |
-
 - 输入：
 ```
 import requests
@@ -301,17 +300,6 @@ response.json()
 ```
 - 检测结果截图：
 ![Face++检测结果](https://upload-images.jianshu.io/upload_images/9515896-9cd0f7754d0432de.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-### ！ 手势识别API对比结果 ！
-
-|  #  |  百度  |  Face++  |
-| :----------: | :-----------|  :-----------|
-|  手势数量 |  24种  |  19种  |
-|  支持拍摄场景  |  **自拍、他拍**：主要适用于3米以内的自拍、他人拍摄，1米内识别效果最佳。拍摄距离太远时，手部目标太小，无法准确定位和识别。  |  **自拍**：主要适用于移动设备的自拍场景设计，在其他场景下对手势的识别精度可能不足。  |
-|  自有特点  |  除识别手势外，若图像中检测到人脸，会同时返回人脸框位置。  |  对于单手的手势，不区分左右手，即无论左右手摆出此手势都会被识别。  |
-|  代码运行结果  |  直接检测出图片人数以及每个人对应手势的名称。  |  返回结果为一个包括19种手势的列表，19种手势合计100分，评分最高的即为识别出的手势。  |
-|  运行正确性  |  ![](https://upload-images.jianshu.io/upload_images/9515896-b3fa962584b9a482.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)同一张照片，百度能正确识别出两个手势。  |  ![](https://upload-images.jianshu.io/upload_images/9515896-9cd0f7754d0432de.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)同一张照片，Face++只识别出了男生的手势，女生的手势只识别到一半导致结果错误。  |
-|  使用评价  |  结果直接显示人数及手势，直观便捷，一目了然。  |  需要在返回的结果列表中自行对比评分、寻找最高分的手势，不太直观，偶尔还会找错导致得出错误的手势结论。  |  
-|  产品价格  |  ![](https://upload-images.jianshu.io/upload_images/9515896-4e46c7a681236141.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) |  ![](https://upload-images.jianshu.io/upload_images/9515896-3a1c43119b37cd31.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  |  
 
 ### 12.2 功能二：颜值识别分析最佳合照 / API运用：Face++ - 颜值评分
 
@@ -320,7 +308,6 @@ response.json()
 |  接口描述 |  计算检测到的人脸的颜值分数，分别返回男性和女性视角下该人脸的颜值分数。  |  
 |  请求方法 |  POST  |
 |  请求URL |  https://api-cn.faceplusplus.com/facepp/v3/detect  |
-
 - 输入：
 ```
 import requests
@@ -358,7 +345,6 @@ response.json()
 |  接口描述 |  对于输入的一张图片（可正常解码，且长宽比适宜），识别人体的轮廓范围，与背景进行分离，适用于拍照背景替换、照片合成、身体特效等场景。输入正常人像图片，返回分割后的二值结果图、灰度图、透明背景的人像图（png格式）。  |  
 |  请求方法 |  POST  |
 |  请求URL |  https://aip.baidubce.com/rest/2.0/image-classify/v1/body_seg  |
-
 - 输入：
 ```
 import requests
@@ -380,7 +366,6 @@ if response:
 ![](https://upload-images.jianshu.io/upload_images/9515896-b98cf8ed6ff4843d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 检测结果截图：
 ![](https://upload-images.jianshu.io/upload_images/9515896-26c4aaee3411e94e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 ### 12.4 功能四：简易修图 / API运用：百度 - 图像效果增强
 
 |  接口地址  |  [https://ai.baidu.com/ai-doc/IMAGEPROCESS/nk3bcloer](https://ai.baidu.com/ai-doc/IMAGEPROCESS/nk3bcloer)  |
@@ -389,8 +374,22 @@ if response:
 |  请求方法 |  POST  |
 |  请求URL |  不同功能对应不同URL  |
 
-### 13. AI产品概率性
-1. 手势识别准确率对比
+### 13. API使用后风险评估
+#### 13.1 手势识别API对比评估 
+
+|  #  |  百度  |  Face++  |
+| :----------: | :-----------|  :-----------|
+|  手势数量 |  24种  |  19种  |
+|  支持拍摄场景  |  **自拍、他拍**：主要适用于3米以内的自拍、他人拍摄，1米内识别效果最佳。拍摄距离太远时，手部目标太小，无法准确定位和识别。  |  **自拍**：主要适用于移动设备的自拍场景设计，在其他场景下对手势的识别精度可能不足。  |
+|  自有特点  |  除识别手势外，若图像中检测到人脸，会同时返回人脸框位置。  |  对于单手的手势，不区分左右手，即无论左右手摆出此手势都会被识别。  |
+|  代码运行结果  |  直接检测出图片人数以及每个人对应手势的名称。![](https://upload-images.jianshu.io/upload_images/9515896-eee4289370f88aaa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  |  返回结果为一个包括19种手势的列表，19种手势合计100分，评分最高的即为识别出的手势。![](https://upload-images.jianshu.io/upload_images/9515896-f37795a961dd53bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  |
+|  运行正确性  |  ![](https://upload-images.jianshu.io/upload_images/9515896-b3fa962584b9a482.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)同一张照片，百度能正确识别出两个手势。  |  ![](https://upload-images.jianshu.io/upload_images/9515896-9cd0f7754d0432de.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)同一张照片，Face++只识别出了男生的手势，女生的手势只识别到一半导致结果错误。  |
+|  使用评价  |  结果直接显示人数及手势，直观便捷，一目了然。  |  需要在返回的结果列表中自行对比评分、寻找最高分的手势，不太直观，偶尔还会找错导致得出错误的手势结论。  |  
+|  产品价格  |  ![](https://upload-images.jianshu.io/upload_images/9515896-4e46c7a681236141.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) |  ![](https://upload-images.jianshu.io/upload_images/9515896-3a1c43119b37cd31.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  |  
+
+### 14. AI产品概率性
+#### 14.1 手势识别准确率对比
 
 |  平台  |  准确率  |  
 | :----------: | :-----------|  
@@ -400,14 +399,13 @@ if response:
 
 - 其他参考：[Top 18 Gesture Recognition Technology Companies](https://blog.technavio.com/blog/top-18-gesture-recognition-technology-companies)
 
-2. 手势识别不准
-- 因用户角度偏僻，距离太远，光线太暗、背景色彩艳丽或画面复杂等硬性原因，画面中的手势边缘模糊难以识别而无法拍照的问题。
-- 优化：在原有卷积姿态机的基础上，采用升级版即增强卷积姿态机算法进行手势的识别。通过姿态估计对手势关节特征进行快速检测,利用卷积神经网络对关节特征图进行分类,克服复杂背景中手势图像分割困难等问题,提高识别结果的准确率至98%。
-3. 人脸识别概率性
+#### 14.2 手势识别优化
+- 问题：手势识别技术一般流程：手势RGB图像预处理——运用模型匹配的方式进行手势识别。该流程中会存在一些普遍问题，比如在图像预处理阶段，复杂背景中手势图像难以分割；基于模型匹配的手势识别，由于手势的角度问题，造成误识别，识别率不高；识别过程分阶段进行，效率较低等等。
+- 优化：尝试在原有卷积姿态机的基础上，采用升级版即增强卷积姿态机算法进行手势的识别。通过姿态估计对手势关节特征进行快速检测，利用卷积神经网络对关节特征图进行分类，克服复杂背景中手势图像分割困难等问题，提高识别结果的准确率至98%。
+#### 14.3 人脸识别概率性
 - [List of 10+ Face Detection / Recognition APIs, libraries, and software](https://konghq.com/blog/list-of-10-face-detection-recognition-apis/)
 - [20+ Emotion Recognition APIs That Will Leave You Impressed, and Concerned](https://nordicapis.com/20-emotion-recognition-apis-that-will-leave-you-impressed-and-concerned/) 
 - 以上两个榜单中Face++均处于中等位置（5/12、10/23），作为国内唯一上榜平台。
-
 
 
 ### 15. 渠道
@@ -432,3 +430,4 @@ if response:
 
 **名词解释**
 - 渗透率：渗透率是指在一定压差下，岩石允许流体通过的能力。而市场渗透率则指企业的实际销售量在市场潜量中的百分率。
+- 卷积神经网络 ：在机器学习中，卷积神经网络是一种深度前馈人工神经网络，已成功地应用于图像识别。
