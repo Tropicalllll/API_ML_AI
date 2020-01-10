@@ -125,7 +125,7 @@ A：自定义抠出替换照片背景，让您想怎么特别都可以！还有�
 - 原创保障：针对用户在平台上自定义创作的图片背景，平台应予以原创保护声明，维护及促进用户创作动力。
 
 ## 10. 使用者交互设计
-### 10.1 原型文档： [交互原型链接](http://tropicallll.gitee.io/api_final_321demo)
+### 10.1 原型文档： [交互原型链接（含可交互的完整版）](http://tropicallll.gitee.io/api_final_321demo)
 ### 10.2 交互与界面设计
 ![](https://upload-images.jianshu.io/upload_images/9515896-70eb7b4a9b1fa28c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](https://upload-images.jianshu.io/upload_images/9515896-a12b99a409aa427f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
