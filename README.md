@@ -1,7 +1,7 @@
 ## 「 321 」：智能合影相机APP-PRD
 #### 20×20演讲
 - [1. 20×20PPT文件](https://github.com/Tropicalllll/API_ML_AI_final321/blob/master/321_2020.pptx)
-- [2. 20×20网盘文件](https://pan.baidu.com/s/1rTCpy0459_8c-GQRXJYR1Q
+- [2. 20×20网盘文件](https://pan.baidu.com/s/1rTCpy0459_8c-GQRXJYR1Q)
 - 注：第一个下载不了的话还请下载第二个链接的网盘文件喔
  
 |  发布日期 | 2019/11/26  |  
